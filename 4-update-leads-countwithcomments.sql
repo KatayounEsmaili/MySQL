@@ -1,7 +1,4 @@
 
-SET @startdate = '2021-03-21 00:00:00' , @finishdate = '2021-06-21 00:00:00' ,@username = 'mohebbi';
-use vtigercrm600;
-
 select 
 count(distinct(leads.leadid)) as leads_commentscount
  FROM  vtiger_leaddetails leads
