@@ -1,4 +1,4 @@
-SET @startdate = '2020-06-12 00:00:00' , @finishdate = '2021-06-12 00:00:00' ,@username = 'sadooni';
+
 
 SELECT  floor(avg(ifnull(inv.pre_tax_total,0))) as total-- ,modt.module,modt.changedon,inv.balance,modtdetail.postvalue,modtdetail.prevalue,modtdetail.fieldname-- max(modt.changedon)
 FROM vtigercrm600.vtiger_invoice inv inner join vtigercrm600.vtiger_crmentity crm on crm.crmid=inv.invoiceid 
