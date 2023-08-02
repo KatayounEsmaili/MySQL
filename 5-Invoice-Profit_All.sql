@@ -1,5 +1,3 @@
-SET @startdate = '2020-03-21 00:00:00' , @finishdate = '2021-03-21 00:00:00' ,@username = 'owjinia';
-use vtigercrm600;
 
   select floor(sum(subquery.productprice)) as productprice,floor(sum(subquery.productprice-subquery.totalprice)) as profitprice
  
