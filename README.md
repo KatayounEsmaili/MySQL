@@ -32,7 +32,8 @@ The manager dashboard contains the following information:
 In these scripts, I utilized the latest technologies in T-SQL to ensure high performance, such as making efficient use of "CASE" and "WHEN" statements, as well as leveraging aggregate functions, etc.
 This dashboard significantly simplifies the management of the sales department, providing valuable insights into sales performance.
    </div>
-<div>You might want to get more information about <a href='https://www.vtiger.com/'></a> which is an open source CRM...</div>
+   
+<div>You might want to get more information about <a href='https://www.vtiger.com/'>Vtiger CRM</a> which is an open source CRM...</div>
    
 ## Contributions and license
 
