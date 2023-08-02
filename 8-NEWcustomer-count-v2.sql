@@ -1,5 +1,4 @@
-SET @startdate = '2020-06-12 00:00:00' , @finishdate = '2021-06-12 00:00:00' ,@username = 'sadooni';
-use vtigercrm600;
+
 
 SELECT  count(distinct(accounts.accountid)) as NewCustomers-- ,modt.module,modt.changedon,inv.balance,modtdetail.postvalue,modtdetail.prevalue,modtdetail.fieldname-- max(modt.changedon)
 FROM  vtiger_invoice inv inner join  vtiger_crmentity crm on crm.crmid=inv.invoiceid 
