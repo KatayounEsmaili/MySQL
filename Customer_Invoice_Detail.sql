@@ -1,4 +1,3 @@
-SET @startdate = '2017-06-12 00:00:00' , @finishdate = '2021-06-12 00:00:00'; 
 
 select 
 min(year(crm2.createdtime)) as minyear,
