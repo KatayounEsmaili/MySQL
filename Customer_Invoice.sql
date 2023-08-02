@@ -1,4 +1,4 @@
-SET @startdate = '2017-06-12 00:00:00' , @finishdate = '2021-06-12 00:00:00'; 
+
 select  
 concat('Customer_',convert ( p2.minyear,char)) as customers,
 sum(p2.total) as total
