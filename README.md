@@ -37,5 +37,5 @@ This dashboard significantly simplifies the management of the sales department, 
 ## Contributions and license
 
 > **Note:** This repository is only for sample usage and no contribution is allowed.
-> All the sample codes are protected by copyrighed by Orang Pajohan Pajohan. 
+> All the sample codes are protected and copyrighed by Orang Pajohan Pajohan co. 
 
