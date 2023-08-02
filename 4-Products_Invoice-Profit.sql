@@ -1,5 +1,3 @@
-SET @startdate = '2020-06-12 00:00:00' , @finishdate = '2021-06-12 00:00:00' ,@username = 'owjinia';
-use vtigercrm600;
 
  select subquery.prdname,floor(sum(subquery.productprice)) as productprice,floor(sum(subquery.productprice-subquery.totalprice)) as profitprice
  -- ,subquery.productid,subquery.type,prdcategory -- ,sum(q.productprice) as suminvoice 
