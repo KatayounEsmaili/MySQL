@@ -1,5 +1,3 @@
-SET @startdate = '2020-06-12 00:00:00' , @finishdate = '2021-06-12 00:00:00' ,@username = 'owjinia';
-use vtigercrm600;
 
 select  subquery2.prdname,subquery2.productprice
   , 100/( sum(subquery2.productprice) over()/sum(subquery2.productprice) ) as productprice_percent 
