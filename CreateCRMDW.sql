@@ -1,15 +1,4 @@
-﻿--------------------------------------------------------------------
-/*
-SQL Server 2019 در Business Intelligence دوره 
-Site:        http://www.NikAmooz.com
-Email:       Info@NikAmooz.com
-Instagram:   https://instagram.com/nikamooz/
-Telegram:	 https://telegram.me/nikamooz
-Created By:  Masoud Taheri 
-*/
---------------------------------------------------------------------
-USE MASTER
-GO
+
 --بررسی جهت وجود بانک اطلاعاتی و حذف آن
 IF DB_ID('CRMDW')>0
 BEGIN
