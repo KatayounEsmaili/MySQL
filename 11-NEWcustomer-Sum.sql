@@ -1,4 +1,3 @@
-SET @startdate = '2020-06-12 00:00:00' , @finishdate = '2021-06-12 00:00:00' ,@username = 'sadooni';
 
 SELECT  count(distinct(accounts.accountid)) as NewCustomers
 ,floor(sum(ifnull(inv.total,0))) as total
