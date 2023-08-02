@@ -1,4 +1,3 @@
-SET @startdate = '2020-06-12 00:00:00' , @finishdate = '2021-06-12 00:00:00';
 
 
 SELECT count(*) as count,ships.ship_state 
