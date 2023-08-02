@@ -1,8 +1,4 @@
 
-SET @startdate = '2016-06-12 00:00:00' , @finishdate = '2021-06-12 00:00:00' ,@username = 'sadooni';
-
-use vtigercrm600;
-
 select count(distinct(accountname)),count(0) as factors,floor(sum(subquery.productprice)) as productprice,  floor(sum(subquery.productprice-subquery.totalprice)) as profitprice,
 floor(avg(subquery.productprice)) as productprice_avg
 ,floor(sum(subquery.productprice-subquery.totalprice)) as profit_avg
