@@ -1,5 +1,3 @@
-SET @startdate = '2020-06-12 00:00:00' , @finishdate = '2021-06-12 00:00:00' ,@username = 'sadooni';
-use vtigercrm600;
 
 SELECT count(distinct(accounts.accountid)) as countlost FROM  vtiger_potential potential 
 inner join vtiger_account accounts on accounts.accountid=potential.related_to
