@@ -32,4 +32,10 @@ The manager dashboard contains the following information:
 In these scripts, I utilized the latest technologies in T-SQL to ensure high performance, such as making efficient use of "CASE" and "WHEN" statements, as well as leveraging aggregate functions, etc.
 This dashboard significantly simplifies the management of the sales department, providing valuable insights into sales performance.
    </div>
-________________________________________
+
+   
+## Contributions and license
+
+> **Note:** This repository is only for sample usage and no contribution is allowed.
+> All the sample codes are protected by copyrighed by Orang Pajohan Pajohan. 
+
