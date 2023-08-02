@@ -1,5 +1,5 @@
 
-SET @startdate = '2017-06-12 00:00:00' , @finishdate = '2021-06-12 00:00:00';
+
 select s.servicecategory as name ,sum(detail.listprice*detail.quantity) as total ,CONVERT(s.servicecategory USING utf8)  as cat from vtiger_invoice as inv
 inner join   vtiger_inventoryproductrel as detail
 on detail.id=inv.invoiceid
