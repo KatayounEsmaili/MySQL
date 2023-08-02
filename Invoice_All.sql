@@ -1,5 +1,3 @@
-SET @startdate = '2020-03-21 00:00:00' , @finishdate = '2021-03-21 00:00:00' ,@username = 'owjinia';
-use vtigercrm600;
 
 SELECT   floor(sum(ifnull(inv.pre_tax_total,0))) as total
 FROM vtiger_invoice inv inner join  vtiger_crmentity crm on crm.crmid=inv.invoiceid 
