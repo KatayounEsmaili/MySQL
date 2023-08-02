@@ -1,12 +1,12 @@
 # MySQL
 
-##Description
+## Description
 
 These scripts were written to develop a management dashboard for Vtiger CRM. The purpose of this dashboard is to showcase sales figures from different perspectives.
 All the scripts were loaded into Grafana as an analytics and visializing platform.
 
 
-##Usage
+## Usage
 The manager dashboard contains the following information:
 <ul>
   <li>Demonstrating the amount of sales each salesperson achieved during a specific period of time. including complex queries to identify Sales-KPIs.
