@@ -1,7 +1,3 @@
- 
- -- تعداد فرصت های تغییر یافته کل توسط یک کارشناس در یک بازه زمانی خاص
-SET @startdate = '2020-03-21 00:00:00' , @finishdate = '2021-03-22 00:00:00' ,@username = 'sadooni';
-use vtigercrm600;
 
 SELECT count(distinct(potentialid)) as countpotential
  
