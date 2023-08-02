@@ -1,5 +1,4 @@
-SET @startdate = '2020-03-21 00:00:00' , @finishdate = '2021-03-21 00:00:00' ,@username = 'sadooni';
-use vtigercrm600;
+
 
 select 
 sum(countwon)/sum(count) as convertionrate from 
